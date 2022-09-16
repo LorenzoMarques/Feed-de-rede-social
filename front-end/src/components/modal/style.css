@@ -1,0 +1,103 @@
+@-webkit-keyframes slideIn {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 100px;
+    opacity: 1;
+  }
+}
+@keyframes slideIn {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 100px;
+    opacity: 1;
+  }
+}
+
+.modal {
+  animation: slideIn 0.4s;
+  position: fixed;
+  width: 90vw;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--gray-1);
+  justify-content: center;
+  max-width: 650px;
+  padding-bottom: 50px;
+  border-radius: 5px;
+  top: 100px;
+  right: 0px;
+  left: 0px;
+  margin: 0 auto;
+}
+
+.modal textarea {
+  resize: none;
+}
+
+.modal-header {
+  border-bottom: 1px solid rgb(189, 188, 188);
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  height: 55px;
+  border-left: 2px solid var(--color-primary-2);
+  padding-left: 10px;
+}
+
+.modal-header button {
+  background-color: var(--color-primary);
+  height: 20px;
+  color: var(--gray-1);
+  border-radius: 5px;
+  margin-top: -10px;
+  margin-right: 10px;
+}
+
+.modal-input-select {
+  margin: auto;
+  border: 1px solid rgb(189, 188, 188);
+  background-color: var(--gray-1);
+  width: 80%;
+  padding: 5px 15px 5px 15px;
+  -ms-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  border-radius: 5px;
+}
+
+.input-select-height {
+  height: 35px;
+}
+
+.buttons-container button,
+label {
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: var(--color-primary-2);
+  color: var(--gray-1);
+  height: 30px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  padding: 0px 10px 0px 10px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10%;
+}

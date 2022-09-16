@@ -1,0 +1,19 @@
+.feed {
+  width: 90vw;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.create {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px 0px 15px;
+  background-color: var(--gray-1);
+  max-width: 550px;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.create img {
+  width: 500px;
+}
