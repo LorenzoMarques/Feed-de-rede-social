@@ -38,53 +38,53 @@ url base da aplicação no heroku: http://127.0.0.1:8000/api/
 ```json
 [
 {
-	"current_page": 2,
+	"current_page": 1,
 	"data": [
 		{
-			"id": 11,
-			"username": "11",
-			"category": "11",
-			"text": "11",
+			"id": 1,
+			"username": "Jhon doe",
+			"category": "post",
+			"text": "A Radom text",
 			"created_at": "2022-09-19T21:14:57.000000Z",
 			"updated_at": "2022-09-19T21:14:57.000000Z"
 		},
 		{
-			"id": 12,
-			"username": "12",
-			"category": "12",
-			"text": "12",
+			"id": 2,
+			"username": "Mary Barry",
+			"category": "post",
+			"text": "A Radom text",
 			"created_at": "2022-09-19T21:15:01.000000Z",
 			"updated_at": "2022-09-19T21:15:01.000000Z"
 		},
 		{
-			"id": 13,
-			"username": "13",
-			"category": "13",
-			"text": "14",
+			"id": 3,
+			"username": "Felipe Terra",
+			"category": "post",
+			"text": "A Radom text",
 			"created_at": "2022-09-19T21:15:05.000000Z",
 			"updated_at": "2022-09-19T21:15:05.000000Z"
 		},
 		{
-			"id": 14,
-			"username": "14",
-			"category": "14",
-			"text": "14",
+			"id": 4,
+			"username": "Bruno Mendonça",
+			"category": "post",
+			"text": "A Radom text",
 			"created_at": "2022-09-19T21:15:10.000000Z",
 			"updated_at": "2022-09-19T21:15:10.000000Z"
 		},
 		{
-			"id": 15,
-			"username": "15",
-			"category": "15",
-			"text": "15",
+			"id": 5,
+			"username": "Julio da Mata",
+			"category": "post",
+			"text": "A Radom text",
 			"created_at": "2022-09-19T21:15:14.000000Z",
 			"updated_at": "2022-09-19T21:15:14.000000Z"
 		},
 		{
-			"id": 16,
-			"username": "16",
-			"category": "16",
-			"text": "16",
+			"id": 6,
+			"username": "Bernardo Rosa",
+			"category": "post",
+			"text": "A Radom text",
 			"created_at": "2022-09-19T21:15:18.000000Z",
 			"updated_at": "2022-09-19T21:15:18.000000Z"
 		}
