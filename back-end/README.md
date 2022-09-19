@@ -26,7 +26,7 @@
 
 # Aplicação
 
-url base da aplicação no heroku: http://127.0.0.1:8000/api/
+url base da aplicação: http://127.0.0.1:8000/api/
 
 # Rotas
 
