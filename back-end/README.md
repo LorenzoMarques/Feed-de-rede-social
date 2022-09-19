@@ -1,4 +1,4 @@
-<h1 align="center">MusiciansBook</h1>
+<h1 align="center">test-laravel</h1>
 
 # Tabela de conteúdo
 
