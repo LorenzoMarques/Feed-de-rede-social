@@ -128,8 +128,8 @@ url base da aplicação no heroku: http://127.0.0.1:8000/api/
 
 # <p align="center">POST</p>
 
-2.1 - Para criar uma conta de usuario, utilize a rota:<br>
-`POST /users - formato de requisição`
+2.1 - Para criar um post, utilize a rota:<br>
+`POST /posts - formato de requisição`
 
 ```json
 {	
