@@ -23,7 +23,7 @@
   animation: slideIn 0.4s;
   position: fixed;
   width: 90vw;
-  height: 400px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   background-color: var(--gray-1);
@@ -100,4 +100,11 @@ input[type="file"] {
   display: flex;
   justify-content: flex-end;
   padding-right: 10%;
+}
+
+.error {
+  color: red;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 5px;
 }

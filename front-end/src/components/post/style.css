@@ -27,8 +27,8 @@
   margin-left: 15px;
 }
 
-.post-text {
-  overflow: hidden;
+.post-text p {
+  word-wrap: break-word;
 }
 
 .read-or-hide-button {
