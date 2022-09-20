@@ -23,8 +23,11 @@ class PostController extends Controller
         $post->category =$request->category;
         $post->text =$request->text;
         $image = $request->file('image');
-        $image_name = $image->getClientOriginalName();
-        $post->image_url =url($request->file('image')->store($destination_path));
+        if ($image) {
+            $image_name = $image->getClientOriginalName();
+            $post->image_url =url($request->file('image')->store($destination_path));
+        }
+
         $post->save();
 
 
