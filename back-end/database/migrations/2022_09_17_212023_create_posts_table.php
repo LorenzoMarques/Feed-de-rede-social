@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('username');
             $table->string('category');
             $table->string('text');
+            $table->string('image_url');
             $table->timestamps();
         });
     }
