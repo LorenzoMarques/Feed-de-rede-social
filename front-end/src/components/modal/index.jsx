@@ -3,8 +3,11 @@ import "./style.css";
 import * as yup from "yup";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
+import { useState } from "react";
 
 const Modal = ({ showCloseModal }) => {
+  const [image, setImage] = useState();
+
   const formSchema = yup.object().shape({
     username: yup.string().required("Nome obrigatório"),
     category: yup.string().required("Categoria obrigatória"),
@@ -20,9 +23,18 @@ const Modal = ({ showCloseModal }) => {
   });
 
   const onSubmit = (data) => {
-    api.post("/posts", data).then(() => {
-      console.log("Post feito com sucesso");
-    });
+    data.image = image;
+    console.log(data);
+
+    api
+      .post("/posts", data, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
+      })
+      .then(() => {
+        console.log("Post feito com sucesso");
+      });
   };
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
@@ -74,7 +86,14 @@ const Modal = ({ showCloseModal }) => {
         <div className="buttons-container">
           <label for="inputTag">
             Imagem
-            <input id="inputTag" type="file" />
+            <input
+              id="inputTag"
+              type="file"
+              onChange={(event) => {
+                console.log(event.target.files[0]);
+                setImage(event.target.files[0]);
+              }}
+            />
           </label>
           <button>PUBLICAR</button>
         </div>

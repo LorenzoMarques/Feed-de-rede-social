@@ -10,6 +10,7 @@ const Feed = () => {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [nextPage, setNextPage] = useState("/posts?page=1");
+  console.log(posts);
 
   const showCloseModal = () => {
     setModal(!modal);
@@ -46,6 +47,7 @@ const Feed = () => {
             postCategory={post.category}
             postText={post.text}
             key={post.id}
+            img={post.image_url}
           />
         );
       })}
