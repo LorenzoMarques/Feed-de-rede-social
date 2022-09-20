@@ -39,7 +39,7 @@ const Post = ({ username, createdAt, postCategory, postText, img }) => {
       </div>
 
       <div className="image-container">
-        <img src={imagem} alt="" />
+        <img src={img} alt="" />
       </div>
     </div>
   );
