@@ -19,7 +19,7 @@ const Post = ({ username, createdAt, postCategory, postText, img }) => {
         <div className="username-created-at">
           <h2>{username}</h2>
           <span>
-            Puclicado em {date} às {hDate}
+            Publicado em {date} às {hDate}
           </span>
         </div>
       </div>

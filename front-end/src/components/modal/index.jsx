@@ -24,7 +24,6 @@ const Modal = ({ showCloseModal }) => {
 
   const onSubmit = (data) => {
     data.image = image;
-    console.log(data);
 
     api
       .post("/posts", data, {
@@ -34,6 +33,9 @@ const Modal = ({ showCloseModal }) => {
       })
       .then(() => {
         console.log("Post feito com sucesso");
+      })
+      .catch(() => {
+        console.log("Não deu");
       });
   };
   return (
