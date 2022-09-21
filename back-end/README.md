@@ -18,6 +18,28 @@
 
 - Esta aplicação foi feita para um teste técnico, onde o usuário pode fazer posts para um feed de uma rede social.
   <br>
+  
+# Iniciando a aplicação
+
+- Primeiramente certifiquece que voce tem um banco de dados gerenciado pelo MySQL e o MySQL instalados na sua máquina
+- Caso não tenha um banco de dados criado utilize um editor de SQL para criar um ou utilize os seguintes comandos no seu terminal:
+
+### mysql -u root -p
+### create database nome_do_banco_de_dados;
+
+- Crie um arquivo .env na pasta back-end e preencha os dados seguindo o modelo do arquivo .env.example
+- Utilize os seguintes comando em seu terminal:
+
+### php artisan migrate
+### php artisan serve
+
+- Pronto, o servidor do seu banco de dados deve estar rodando localmente agora e deve aparecer a seguinte mensagem no seu console:
+###  INFO  Server running on [http://127.0.0.1:8000].  
+###
+###  Press Ctrl+C to stop the server
+
+- Agora é só testar a aplicação.
+
 
 # Integrantes
 
