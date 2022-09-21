@@ -158,7 +158,8 @@ url base da aplicação: http://127.0.0.1:8000/api/
 {	
 	"username": "Jhon doe",
 	"category": "post",
-	"text": "A Random text"
+	"text": "A Random text",
+	"image": file.png    
 }
 ```
 
