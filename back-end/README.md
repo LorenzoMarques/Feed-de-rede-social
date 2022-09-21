@@ -35,9 +35,9 @@
 ### `php artisan serve`
 
 - Pronto, o servidor do seu banco de dados deve estar rodando localmente agora e deve aparecer a seguinte mensagem no seu console:
-###  `INFO  Server running on [http://127.0.0.1:8000].
+###  `INFO  Server running on [http://127.0.0.1:8000].`
 ###
-###  Press Ctrl+C to stop the server`
+###  `Press Ctrl+C to stop the server`
 
 - Agora é só testar a aplicação.
 
