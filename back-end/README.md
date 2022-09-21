@@ -22,7 +22,7 @@
   
 # Iniciando
 
-- Primeiramente certifiquece que voce tem um banco de dados gerenciado pelo MySQL e o MySQL instalados na sua máquina
+- Primeiramente certifique-ce que voce tem um banco de dados gerenciado pelo MySQL e o MySQL instalado na sua máquina
 - Caso não tenha um banco de dados criado utilize um editor de SQL para criar um ou utilize os seguintes comandos no seu terminal:
 
 ### `mysql -u root -p`
@@ -34,12 +34,12 @@
 ### `php artisan migrate`
 ### `php artisan serve`
 
-- Pronto, o servidor do seu banco de dados deve estar rodando localmente agora e deve aparecer a seguinte mensagem no seu console:
+- Pronto, o servidor do seu banco de dados deve estar rodando localmente e deve aparecer a seguinte mensagem no seu console:
 ###  `INFO  Server running on [http://127.0.0.1:8000].`
 ###
 ###  `Press Ctrl+C to stop the server`
 
-- Agora é só testar a aplicação.
+- Agora é só testar a aplicação!
 
 
 # Integrantes
@@ -168,3 +168,4 @@ url base da aplicação: http://127.0.0.1:8000/api/
 
 - <a href="https://www.php.net/">PHP</a>
 - <a href="https://laravel.com/">Laravel</a>
+- <a href="https://www.mysql.com//">MySQL</a>
