@@ -1,7 +1,6 @@
 import { useState } from "react";
 import user from "../../assets/avatar_default.png";
 import "./style.css";
-import imagem from "../../assets/feed_detail.png";
 
 const Post = ({ username, createdAt, postCategory, postText, img }) => {
   const [showMore, setShowMore] = useState(false);

@@ -52,7 +52,13 @@ const Feed = () => {
         );
       })}
 
-      {modal && <Modal modal={modal} showCloseModal={showCloseModal} />}
+      {modal && (
+        <Modal
+          modal={modal}
+          showCloseModal={showCloseModal}
+          loadPage={loadPage}
+        />
+      )}
 
       <InfiniteScroll fetchMore={() => setLoading(true)} />
       {loading && <InfiniteScroll fetchMore={loadPage} />}
