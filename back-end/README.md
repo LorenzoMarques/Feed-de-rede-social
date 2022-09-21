@@ -10,6 +10,7 @@
     - [GET](#GET)
     - [POST](#POST)
  - [Tecnologias](#Tecnologias)  
+ - [Iniciando a aplicação](#Iniciando a aplicação)  
 <!--te-->
 
 <br>
