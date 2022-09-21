@@ -10,7 +10,7 @@
     - [GET](#GET)
     - [POST](#POST)
  - [Tecnologias](#Tecnologias)  
- - [Iniciando a aplicação](#Iniciando a aplicação)  
+ - [Iniciando a aplicação](#Iniciando)  
 <!--te-->
 
 <br>
@@ -20,7 +20,7 @@
 - Esta aplicação foi feita para um teste técnico, onde o usuário pode fazer posts para um feed de uma rede social.
   <br>
   
-# Iniciando a aplicação
+# Iniciando
 
 - Primeiramente certifiquece que voce tem um banco de dados gerenciado pelo MySQL e o MySQL instalados na sua máquina
 - Caso não tenha um banco de dados criado utilize um editor de SQL para criar um ou utilize os seguintes comandos no seu terminal:
