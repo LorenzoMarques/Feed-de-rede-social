@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useState } from "react";
 
-const Modal = ({ showCloseModal, loadPage }) => {
+const Modal = ({ showCloseModal, refreshPage }) => {
   const [image, setImage] = useState();
 
   const formSchema = yup.object().shape({
@@ -33,7 +33,8 @@ const Modal = ({ showCloseModal, loadPage }) => {
         },
       })
       .then(() => {
-        loadPage();
+        refreshPage();
+        showCloseModal();
       });
   };
   return (

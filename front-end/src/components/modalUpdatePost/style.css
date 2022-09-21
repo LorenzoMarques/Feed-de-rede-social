@@ -1,0 +1,47 @@
+.edit-button {
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: var(--color-primary-2);
+  color: var(--gray-1);
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  padding: 0px 10px 0px 10px;
+  align-self: flex-end;
+  margin-right: 55px;
+  margin-top: 15px;
+}
+
+.update-modal {
+  animation: slideIn 0.4s;
+  position: fixed;
+  width: 90vw;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--gray-1);
+  justify-content: center;
+  max-width: 650px;
+  padding-bottom: 50px;
+  border-radius: 5px;
+  top: 100px;
+  right: 0px;
+  left: 0px;
+  margin: 0 auto;
+  z-index: 999;
+}
+
+.update-textarea {
+  height: 100px;
+  resize: none;
+  width: 80%;
+  padding: 5px 15px 5px 15px;
+  -ms-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  margin: auto;
+  border: 1px solid rgb(189, 188, 188);
+}
