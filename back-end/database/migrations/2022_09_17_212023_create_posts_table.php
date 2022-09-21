@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('username');
             $table->string('category');
-            $table->string('text');
+            $table->string('text', 5000);
             $table->string('image_url')->nullable();
             $table->timestamps();
         });

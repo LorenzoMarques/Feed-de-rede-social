@@ -11,7 +11,7 @@ class PostController extends Controller
 
     public function index()
     {
-        return Post::paginate(5);
+        return Post::orderByDesc('created_at', 'ASC')->paginate(5);
 
     }
 
@@ -23,8 +23,12 @@ class PostController extends Controller
         $post->category =$request->category;
         $post->text =$request->text;
         $image = $request->file('image');
-        $image_name = $image->getClientOriginalName();
-        $post->image_url =url($request->file('image')->store($destination_path));
+
+        if($image) {
+            $image_name = $image->getClientOriginalName();
+            $post->image_url =url($request->file('image')->store($destination_path));
+        }
+
         $post->save();
 
 
@@ -38,9 +42,18 @@ class PostController extends Controller
     public function update(Request $request, $id)
     {
 
+        $post = Post::findOrFAil($id)->update($request->all());
+
+        return response()->json(Post::findOrFail($id), 200);
+
+
     }
     public function destroy($id)
     {
 
+        $post = Post::findOrFAil($id)->delete();
+
+        return response()->json(null, 204);
+ 
     }
 }

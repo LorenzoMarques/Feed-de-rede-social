@@ -4,16 +4,23 @@ import Post from "../../components/post";
 import api from "../../services/api";
 import "./style.css";
 import InfiniteScroll from "../../components/infinityScroll";
+import UpdateModal from "../../components/modalUpdatePost";
 
 const Feed = () => {
   const [modal, setModal] = useState(false);
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [nextPage, setNextPage] = useState("/posts?page=1");
-  console.log(posts);
 
   const showCloseModal = () => {
     setModal(!modal);
+  };
+
+  const refreshPage = () => {
+    api.get("/posts").then((res) => {
+      setPosts([...res.data.data]);
+      setNextPage(res.data.next_page_url.split(`api`)[1]);
+    });
   };
 
   const loadPage = () => {
@@ -48,11 +55,22 @@ const Feed = () => {
             postText={post.text}
             key={post.id}
             img={post.image_url}
+            id={post.id}
+            refreshPage={refreshPage}
           />
         );
       })}
 
-      {modal && <Modal modal={modal} showCloseModal={showCloseModal} />}
+      {modal && (
+        <Modal
+          modal={modal}
+          showCloseModal={showCloseModal}
+          setNextPage={setNextPage}
+          setPosts={setPosts}
+          posts={posts}
+          refreshPage={refreshPage}
+        />
+      )}
 
       <InfiniteScroll fetchMore={() => setLoading(true)} />
       {loading && <InfiniteScroll fetchMore={loadPage} />}
