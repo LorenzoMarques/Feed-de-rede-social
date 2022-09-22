@@ -72,7 +72,7 @@ url base da aplicação: http://127.0.0.1:8000/api/
 		"text": "A Radom text",
 		"created_at": "2022-09-19T21:14:57.000000Z",
 		"updated_at": "2022-09-19T21:14:57.000000Z",
-        "image_url": "http:\/\/127.0.0.1:8000\/storage\/images\/posts\/vXOe23riyU3V1sxRgEe9uScBnd0zMOGpDesR4DDP.png"
+           "image_url": "http:\/\/127.0.0.1:8000\/storage\/images\/posts\/vXOe23riyU3V1sxRgEe9uScBnd0zMOGpDesR4DDP.png"
 	},
 	{
 		"id": 2,
@@ -81,7 +81,7 @@ url base da aplicação: http://127.0.0.1:8000/api/
 		"text": "A Radom text",
 		"created_at": "2022-09-19T21:15:01.000000Z",
 		"updated_at": "2022-09-19T21:15:01.000000Z",
-        "image_url": null
+           "image_url": null
 
 	},
 	{
@@ -91,7 +91,7 @@ url base da aplicação: http://127.0.0.1:8000/api/
 		"text": "A Radom text",
 		"created_at": "2022-09-19T21:15:05.000000Z",
 		"updated_at": "2022-09-19T21:15:05.000000Z",
-        "image_url": "http:\/\/127.0.0.1:8000\/storage\/images\/posts\/vXOe23riyU3V1sxRgEe9uScBnd0zMOGpDesR4DDP.png"
+           "image_url": "http:\/\/127.0.0.1:8000\/storage\/images\/posts\/vXOe23riyU3V1sxRgEe9uScBnd0zMOGpDesR4DDP.png"
 	},
 	{
 		"id": 4,
@@ -100,7 +100,7 @@ url base da aplicação: http://127.0.0.1:8000/api/
 		"text": "A Radom text",
 		"created_at": "2022-09-19T21:15:10.000000Z",
 		"updated_at": "2022-09-19T21:15:10.000000Z",
-         "image_url": null
+            "image_url": null
 	},
 	{
     	"id": 5,
@@ -109,7 +109,7 @@ url base da aplicação: http://127.0.0.1:8000/api/
 		"text": "A Radom text",
 		"created_at": "2022-09-19T21:15:14.000000Z",
 		"updated_at": "2022-09-19T21:15:14.000000Z",
-        "image_url": null
+           "image_url": null
 	},
 	{
 		"id": 6,
@@ -118,7 +118,7 @@ url base da aplicação: http://127.0.0.1:8000/api/
 		"text": "A Radom text",
 		"created_at": "2022-09-19T21:15:18.000000Z",
 		"updated_at": "2022-09-19T21:15:18.000000Z",
-        "image_url": "http:\/\/127.0.0.1:8000\/storage\/images\/posts\/vXOe23riyU3V1sxRgEe9uScBnd0zMOGpDesR4DDP.png"
+           "image_url": "http:\/\/127.0.0.1:8000\/storage\/images\/posts\/vXOe23riyU3V1sxRgEe9uScBnd0zMOGpDesR4DDP.png"
 		}
 	],
 	"first_page_url": "http:\/\/127.0.0.1:8000\/api\/posts?page=1",
