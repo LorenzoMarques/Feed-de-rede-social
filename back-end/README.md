@@ -9,6 +9,8 @@
  - [Rotas](#Rotas)
     - [GET](#GET)
     - [POST](#POST)
+    - [PATCH](#PATCH)
+    - [DELETE](#DELETE)
  - [Tecnologias](#Tecnologias)  
  - [Iniciando a aplicação](#Iniciando)  
 <!--te-->
