@@ -24,7 +24,7 @@
   
 # Iniciando
 
-- Primeiramente certifique-ce que voce tem um banco de dados gerenciado pelo MySQL e o MySQL instalado na sua máquina
+- Primeiramente certifique-se que voce tem um banco de dados gerenciado pelo MySQL e o MySQL instalado na sua máquina
 - Caso não tenha um banco de dados criado utilize um editor de SQL para criar um ou utilize os seguintes comandos no seu terminal:
 
 ### `mysql -u root -p`
