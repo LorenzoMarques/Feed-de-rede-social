@@ -65,60 +65,60 @@ url base da aplicação: http://127.0.0.1:8000/api/
 {
 	"current_page": 1,
 	"data": [
-		{
-			"id": 1,
-			"username": "Jhon doe",
-			"category": "post",
-			"text": "A Radom text",
-			"created_at": "2022-09-19T21:14:57.000000Z",
-			"updated_at": "2022-09-19T21:14:57.000000Z",
-            "image_url": "http:\/\/127.0.0.1:8000\/storage\/images\/posts\/vXOe23riyU3V1sxRgEe9uScBnd0zMOGpDesR4DDP.png"
-		},
-		{
-			"id": 2,
-			"username": "Mary Barry",
-			"category": "post",
-			"text": "A Radom text",
-			"created_at": "2022-09-19T21:15:01.000000Z",
-			"updated_at": "2022-09-19T21:15:01.000000Z",
-            "image_url": null
+	{
+		"id": 1,
+		"username": "Jhon doe",
+		"category": "post",
+		"text": "A Radom text",
+		"created_at": "2022-09-19T21:14:57.000000Z",
+		"updated_at": "2022-09-19T21:14:57.000000Z",
+        "image_url": "http:\/\/127.0.0.1:8000\/storage\/images\/posts\/vXOe23riyU3V1sxRgEe9uScBnd0zMOGpDesR4DDP.png"
+	},
+	{
+		"id": 2,
+		"username": "Mary Barry",
+		"category": "post",
+		"text": "A Radom text",
+		"created_at": "2022-09-19T21:15:01.000000Z",
+		"updated_at": "2022-09-19T21:15:01.000000Z",
+        "image_url": null
 
-		},
-		{
-			"id": 3,
-			"username": "Felipe Terra",
-			"category": "post",
-			"text": "A Radom text",
-			"created_at": "2022-09-19T21:15:05.000000Z",
-			"updated_at": "2022-09-19T21:15:05.000000Z",
-            "image_url": "http:\/\/127.0.0.1:8000\/storage\/images\/posts\/vXOe23riyU3V1sxRgEe9uScBnd0zMOGpDesR4DDP.png"
-		},
-		{
-			"id": 4,
-			"username": "Bruno Mendonça",
-			"category": "post",
-			"text": "A Radom text",
-			"created_at": "2022-09-19T21:15:10.000000Z",
-			"updated_at": "2022-09-19T21:15:10.000000Z",
-            "image_url": null
-		},
-		{
-			"id": 5,
-			"username": "Julio da Mata",
-			"category": "post",
-			"text": "A Radom text",
-			"created_at": "2022-09-19T21:15:14.000000Z",
-			"updated_at": "2022-09-19T21:15:14.000000Z",
-            "image_url": null
-		},
-		{
-			"id": 6,
-			"username": "Bernardo Rosa",
-			"category": "post",
-			"text": "A Radom text",
-			"created_at": "2022-09-19T21:15:18.000000Z",
-			"updated_at": "2022-09-19T21:15:18.000000Z",
-            "image_url": "http:\/\/127.0.0.1:8000\/storage\/images\/posts\/vXOe23riyU3V1sxRgEe9uScBnd0zMOGpDesR4DDP.png"
+	},
+	{
+		"id": 3,
+		"username": "Felipe Terra",
+		"category": "post",
+		"text": "A Radom text",
+		"created_at": "2022-09-19T21:15:05.000000Z",
+		"updated_at": "2022-09-19T21:15:05.000000Z",
+        "image_url": "http:\/\/127.0.0.1:8000\/storage\/images\/posts\/vXOe23riyU3V1sxRgEe9uScBnd0zMOGpDesR4DDP.png"
+	},
+	{
+		"id": 4,
+		"username": "Bruno Mendonça",
+		"category": "post",
+		"text": "A Radom text",
+		"created_at": "2022-09-19T21:15:10.000000Z",
+		"updated_at": "2022-09-19T21:15:10.000000Z",
+         "image_url": null
+	},
+	{
+    	"id": 5,
+		"username": "Julio da Mata",
+		"category": "post",
+		"text": "A Radom text",
+		"created_at": "2022-09-19T21:15:14.000000Z",
+		"updated_at": "2022-09-19T21:15:14.000000Z",
+        "image_url": null
+	},
+	{
+		"id": 6,
+		"username": "Bernardo Rosa",
+		"category": "post",
+		"text": "A Radom text",
+		"created_at": "2022-09-19T21:15:18.000000Z",
+		"updated_at": "2022-09-19T21:15:18.000000Z",
+        "image_url": "http:\/\/127.0.0.1:8000\/storage\/images\/posts\/vXOe23riyU3V1sxRgEe9uScBnd0zMOGpDesR4DDP.png"
 		}
 	],
 	"first_page_url": "http:\/\/127.0.0.1:8000\/api\/posts?page=1",
@@ -126,26 +126,26 @@ url base da aplicação: http://127.0.0.1:8000/api/
 	"last_page": 2,
 	"last_page_url": "http:\/\/127.0.0.1:8000\/api\/posts?page=2",
 	"links": [
-		{
-			"url": "http:\/\/127.0.0.1:8000\/api\/posts?page=1",
-			"label": "&laquo; Previous",
-			"active": false
-		},
-		{
-			"url": "http:\/\/127.0.0.1:8000\/api\/posts?page=1",
-			"label": "1",
-			"active": false
-		},
-		{
-			"url": "http:\/\/127.0.0.1:8000\/api\/posts?page=2",
-			"label": "2",
-			"active": true
-		},
-		{
-			"url": null,
-			"label": "Next &raquo;",
-			"active": false
-		}
+    	 {
+	    	"url": "http:\/\/127.0.0.1:8000\/api\/posts?page=1",
+    		"label": "&laquo; Previous",
+    		"active": false
+    	},
+    	{
+    		"url": "http:\/\/127.0.0.1:8000\/api\/posts?page=1",
+    		"label": "1",
+    		"active": false
+    	},
+    	{
+    		"url": "http:\/\/127.0.0.1:8000\/api\/posts?page=2",
+    		"label": "2",
+    		"active": true
+    	},
+    	{
+	    	"url": null,
+    		"label": "Next &raquo;",
+    		"active": false
+    	}
 	],
 	"next_page_url": null,
 	"path": "http:\/\/127.0.0.1:8000\/api\/posts",
