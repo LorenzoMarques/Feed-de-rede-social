@@ -149,6 +149,21 @@ url base da aplicação: http://127.0.0.1:8000/api/
 ]
 ```
 
+1.2 - Para listar um post em especifico, utilize a a rota: <br>
+`GET /posts/:id - formato de resposta - status 200`
+
+```json
+
+		{
+			"id": 5,
+			"username": "Julio da Mata",
+			"category": "post",
+			"text": "A Radom text",
+			"created_at": "2022-09-19T21:15:14.000000Z",
+			"updated_at": "2022-09-19T21:15:14.000000Z"
+		}
+```
+
 # <p align="center">POST</p>
 
 2.1 - Para criar um post, utilize a rota:<br>
@@ -161,6 +176,56 @@ url base da aplicação: http://127.0.0.1:8000/api/
 	"text": "A Random text",
 	"image": file.png    
 }
+```
+
+formato de resposta - status 200`
+
+```json
+
+		{
+			"id": 6,
+			"username": "Bernardo Rosa",
+			"category": "post",
+			"text": "A Radom text",
+			"created_at": "2022-09-19T21:15:18.000000Z",
+			"updated_at": "2022-09-19T21:15:18.000000Z"
+		}
+```
+# <p align="center">PATCH</p>
+
+3.1 - Para atualizar um post, utilize a rota:<br>
+`POST /posts/:id - formato de requisição`
+
+```json
+{	
+	"username": "Jhon doe",
+	"category": "post",
+	"text": "A Random text"
+}
+```
+
+- formato de resposta - status 200`
+
+```json
+{	
+	"username": "Jhon doe",
+	"category": "post",
+	"text": "A Random text",
+	"image": file.png    
+}
+```
+
+`POST /posts/:id - formato de requisição`
+
+
+# <p align="center">DELETE</p>
+
+4.1 - Para deletar um post, utilize a rota:<br>
+`POST /posts/:id - formato de resposta - status 204`
+
+
+```json
+
 ```
 
 
