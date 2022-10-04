@@ -1,5 +1,4 @@
 import "./style.css";
-import logo from "../../assets/linklei_logo.svg";
 import brasilianFlag from "../../assets/brasilianFlag.svg";
 import mail from "../../assets/mail.svg";
 import notification from "../../assets/notification.svg";
@@ -14,10 +13,6 @@ const Header = () => {
         <div className="line"></div>
         <div className="line"></div>
       </button>
-
-      <a href="https://linklei.com.br/" target="blank">
-        <img src={logo} alt="" className="logo" />
-      </a>
 
       <ul className="nav-bar">
         <li>

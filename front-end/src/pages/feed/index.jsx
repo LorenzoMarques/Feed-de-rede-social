@@ -4,7 +4,6 @@ import Post from "../../components/post";
 import api from "../../services/api";
 import "./style.css";
 import InfiniteScroll from "../../components/infinityScroll";
-import UpdateModal from "../../components/modalUpdatePost";
 
 const Feed = () => {
   const [modal, setModal] = useState(false);
